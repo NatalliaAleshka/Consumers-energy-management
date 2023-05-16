@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "State": "Alberta",
+            "City": "Calgary"
+        },
+        {
+            "State": "British Columbia",
+            "City": "Victoria"
+        },
+        {
+            "State": "Manitoba",
+            "City": "Winnepeg"
+        },
+        {
+            "State": "New Brunswick",
+            "City": "Fredrickton"
+        },
+        {
+            "State": "Newfoundland",
+            "City": "St Johns"
+        },
+        {
+            "State": "Northwest Territory",
+            "City": "Fort Smith"
+        },
+        {
+            "State": "Nova Scotia",
+            "City": "Halifax"
+        },
+        {
+            "State": "Ontario",
+            "City": "Toronto"
+        },
+        {
+            "State": "Quebec",
+            "City": "Montreal"
+        },
+        {
+            "State": "Saskatechewan",
+            "City": "Regina"
+        }
+    ]
+}

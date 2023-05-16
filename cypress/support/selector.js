@@ -18,7 +18,12 @@ Promotions_menu:('#menu-item-673 > a'),
 Career_menu:('#menu-item-1589 > a'),
 Blog_menu:('#menu-item-1725 > a'),
 FAQs_menu:('#menu-item-1727 > a'),
-Contact_menu:('#menu-item-1726 > a')
-
+Contact_menu:('#menu-item-1726 > a'),
+Savings_calculator:('https://consumersenergymanagement.ca/savings-calculator/'),
+Step1Box:('#step1box'),
+Step2Box:('#step2box'),
+Step3Box:('#step3box'),
+State:('[name="nastates"]'),
+City:('[name="stage2"]')
 
 }
