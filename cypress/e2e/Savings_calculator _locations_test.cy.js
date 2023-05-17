@@ -18,55 +18,54 @@ describe('Saving calculators - locations test', () => {
     })
 
     it('Provance Alberta on state list  and can be chosen and at least 1 city for this provance can open', () => {
-        cy.get('[name="nastates"]').select(data[0].State).invoke('text').should('contain', data[0].State)
-        cy.get('[name="stage2"]').select(data[0].City).invoke('text').should('contain', data[0].City)
-
+        cy.get(selector.State).select(data[0].State).invoke('text').should('contain', data[0].State)
+        cy.get(selector.City).select(data[0].State).invoke('text').should('contain', data[0].State)
     })
     it('Provance British Columbia on state list  and can be chosen and at least 1 city for this provance can open', () => {
-        cy.get('[name="nastates"]').select(data[1].State).invoke('text').should('contain', data[1].State)
-        cy.get('[name="stage2"]').select(data[1].City).invoke('text').should('contain', data[1].City)
+        cy.get(selector.State).select(data[1].State).invoke('text').should('contain', data[1].State)
+        cy.get(selector.City).select(data[1].City).invoke('text').should('contain', data[1].City)
 
     })
     it('Provance Manitoba on state list  and can be chosen and at least 1 city for this provance can open', () => {
-        cy.get('[name="nastates"]').select(data[2].State).invoke('text').should('contain', data[2].State)
-        cy.get('[name="stage2"]').select(data[2].City).invoke('text').should('contain', data[2].City)
+        cy.get(selector.State).select(data[2].State).invoke('text').should('contain', data[2].State)
+        cy.get(selector.City).select(data[2].City).invoke('text').should('contain', data[2].City)
 
     })
     it('Provance New Brunswick on state list  and can be chosen and at least 1 city for this provance can open', () => {
-        cy.get('[name="nastates"]').select(data[3].State).invoke('text').should('contain', data[3].State)
-        cy.get('[name="stage2"]').select(data[3].City).invoke('text').should('contain', data[3].City)
+        cy.get(selector.State).select(data[3].State).invoke('text').should('contain', data[3].State)
+        cy.get(selector.City).select(data[3].City).invoke('text').should('contain', data[3].City)
 
     })
 
     it('Provance Newfoundland on state list  and can be chosen and at least 1 city for this provance can open', () => {
-        cy.get('[name="nastates"]').select(data[4].State).invoke('text').should('contain', data[4].State)
-        cy.get('[name="stage2"]').select(data[4].City).invoke('text').should('contain', data[4].City)
+        cy.get(selector.State).select(data[4].State).invoke('text').should('contain', data[4].State)
+        cy.get(selector.City).select(data[4].City).invoke('text').should('contain', data[4].City)
 
     })
     it('Provance Northwest Territory on state list  and can be chosen and at least 1 city for this provance can open', () => {
-        cy.get('[name="nastates"]').select(data[5].State).invoke('text').should('contain', data[5].State)
-        cy.get('[name="stage2"]').select(data[5].City).invoke('text').should('contain', data[5].City)
+        cy.get(selector.State).select(data[5].State).invoke('text').should('contain', data[5].State)
+        cy.get(selector.City).select(data[5].City).invoke('text').should('contain', data[5].City)
 
     })
     it('Provance Nova Scotia on state list  and can be chosen and at least 1 city for this provance can open', () => {
-        cy.get('[name="nastates"]').select(data[6].State).invoke('text').should('contain', data[6].State)
-        cy.get('[name="stage2"]').select(data[6].City).invoke('text').should('contain', data[6].City)
+        cy.get(selector.State).select(data[6].State).invoke('text').should('contain', data[6].State)
+        cy.get(selector.City).select(data[6].City).invoke('text').should('contain', data[6].City)
 
     })
     it('Provance Ontario on state list  and can be chosen and at least 1 city for this provance can open', () => {
-        cy.get('[name="nastates"]').select(data[7].State).invoke('text').should('contain', data[7].State)
-        cy.get('[name="stage2"]').select(data[7].City).invoke('text').should('contain', data[7].City)
+        cy.get(selector.State).select(data[7].State).invoke('text').should('contain', data[7].State)
+        cy.get(selector.City).select(data[7].City).invoke('text').should('contain', data[7].City)
 
     })
 
     it('Provance Quebec on state list  and can be chosen and at least 1 city for this provance can open', () => {
-        cy.get('[name="nastates"]').select(data[8].State).invoke('text').should('contain', data[8].State)
-        cy.get('[name="stage2"]').select(data[8].City).invoke('text').should('contain', data[8].City)
+        cy.get(selector.State).select(data[8].State).invoke('text').should('contain', data[8].State)
+        cy.get(selector.City).select(data[8].City).invoke('text').should('contain', data[8].City)
 
     })
     it('Provance Saskatechewan on state list  and can be chosen and at least 1 city for this provance can open', () => {
-        cy.get('[name="nastates"]').select(data[9].State).invoke('text').should('contain', data[9].State)
-        cy.get('[name="stage2"]').select(data[9].City).invoke('text').should('contain', data[9].City)
+        cy.get(selector.State).select(data[9].State).invoke('text').should('contain', data[9].State)
+        cy.get(selector.City).select(data[9].City).invoke('text').should('contain', data[9].City)
 
     })
 
