@@ -24,6 +24,16 @@ Step1Box:('#step1box'),
 Step2Box:('#step2box'),
 Step3Box:('#step3box'),
 State:('[name="nastates"]'),
-City:('[name="stage2"]')
+City:('[name="stage2"]'),
+Stories:(':nth-child(6) > :nth-child(2) > .Slcst'),
+Square_Feet:(':nth-child(6) > :nth-child(3) > .Slcst'),
+Years:('.Txtss'),
+Gas:('#step1col3 > :nth-child(1) > input'),
+Propane:('#step1col3 > :nth-child(2) > input'),
+Oil:('#step1col3 > :nth-child(3) > input'),
+Summer:('#step1col3 > :nth-child(4) > input'),
+Winter:('#step1col3 > :nth-child(5) > input')
+
+
 
 }
