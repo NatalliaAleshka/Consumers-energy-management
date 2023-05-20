@@ -28,12 +28,27 @@ City:('[name="stage2"]'),
 Stories:(':nth-child(6) > :nth-child(2) > .Slcst'),
 Square_Feet:(':nth-child(6) > :nth-child(3) > .Slcst'),
 Years:('.Txtss'),
+Price_column:('#step1col3'),
 Gas:('#step1col3 > :nth-child(1) > input'),
-Propane:('#step1col3 > :nth-child(2) > input'),
+Propane:('[name="propaneGas"]'),
 Oil:('#step1col3 > :nth-child(3) > input'),
 Summer:('#step1col3 > :nth-child(4) > input'),
-Winter:('#step1col3 > :nth-child(5) > input')
-
+Winter:('#step1col3 > :nth-child(5) > input'),
+CurrentHeatingSystem:('#step2col2 > :nth-child(1)'),
+EfficiencyLevel_CS:('#step2col2 > :nth-child(2)'),
+NewHeatingSystem:('#step2col2 > :nth-child(3) > p'),
+EfficiencyLevel_NS:('#step2col2 > :nth-child(4)'),
+Heat_type:('#heattype'),
+Efficiency_HeatType:('#eheattype'),
+New_Heater:(':nth-child(3) > p > .Slcst'),
+Efficiency_New:('#newheateff > p > .Slcst'),
+Annual_Heating_Savings:('#step2col3 > :nth-child(1)'),
+AHS:('#AHS'),
+Current_Heating_Cost:('#step2col3 > :nth-child(3)'),
+CHC:('#CHC'),
+New_heating_Cost:('#step2col3 > :nth-child(5)'),
+NHC:('#NHC'),
+HSPF:('#voldhspf')
 
 
 }
