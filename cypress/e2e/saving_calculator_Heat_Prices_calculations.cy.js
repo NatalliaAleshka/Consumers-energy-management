@@ -28,13 +28,13 @@ describe('Saving calculator -  Heat Prices calculations', () => {
         cy.get(selector.Square_Feet).select("4250")
         cy.get(selector.Years).type("75")
     })
-    it(' Should populate all the fields at Step 1 Price column with the test data', () => {
+    it(' Should populate all the fields at Step 1 Price column with the test data',() => {
         cy.get(selector.Price_column).should('be.visible')
-        cy.get(selector.Gas).clear().type("2.34");
-        cy.get(selector.Propane).clear().type("5.00");
-        cy.get(selector.Oil).clear().type("3.95");
-        cy.get(selector.Summer).clear().type("0.30");
-        cy.get(selector.Winter).clear().type("0.25");
+        cy.get(selector.Gas).clear().type("2.34")
+        cy.get(selector.Propane).clear().type("5.00")
+        cy.get(selector.Oil).clear().type("3.95")
+        cy.get(selector.Summer).clear().type("0.30")
+        cy.get(selector.Winter).clear().type("0.25")
 
     })
 
