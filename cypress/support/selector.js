@@ -30,7 +30,7 @@ Square_Feet:(':nth-child(6) > :nth-child(3) > .Slcst'),
 Years:('.Txtss'),
 Price_column:('#step1col3'),
 Gas:('#step1col3 > :nth-child(1) > input'),
-Propane:('#step1col3 > :nth-child(2)'),
+Propane:('#step1col3 > :nth-child(2) > input'),
 Oil:('#step1col3 > :nth-child(3) > input'),
 Summer:('#step1col3 > :nth-child(4) > input'),
 Winter:('#step1col3 > :nth-child(5) > input'),
@@ -50,8 +50,10 @@ New_heating_Cost:('#step2col3 > :nth-child(5)'),
 NHC:('#NHC'),
 HSPF:('#voldhspf'),
 Total_Savings:('#calculate'),
-Annual_Savings:('#VTAS'),
-Ten_Years_Savings:('#VTES')
+Annual_Savings:('[id="totalleft"]'),
+Ten_Years_Savings:('#VTES'),
+New_Heating_Sistem_inp:(':nth-child(3) > p > .Slcst'),
+AFUE_New:('#newheateff > p > .Slcst')
 
 
 }
